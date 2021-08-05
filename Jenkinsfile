@@ -107,7 +107,7 @@ pipeline {
             }
         }
 
-       /* stage('Promote to Staging Env') {
+        stage('Promote to Staging Env') {
             steps {
                 timeout(time: 60, unit: 'MINUTES') {
                     input message: "Promote to Staging?"
@@ -136,7 +136,7 @@ pipeline {
 					-i ${APP_NAME}:stage \
 					-n ${STAGE_PROJECT}
 					
-					oc expose svc/${APP_NAME}
+					oc -n ${STAGE_PROJECT} expose svc/${APP_NAME}
 				'''
             }
         }
@@ -159,6 +159,6 @@ pipeline {
                     }
                 }
             }
-        }*/
+        }
     }
 }
