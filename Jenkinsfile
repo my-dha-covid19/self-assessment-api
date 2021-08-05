@@ -16,7 +16,7 @@ pipeline {
         NEXUS_SERVER = "https://nexus-project-devops.dte-ocp46-fh6888-915b3b336cabec458a7c7ec2aa7c625f-0000.us-east.containers.appdomain.cloud/repository/maven-public"
 
         // DO NOT CHANGE THE GLOBAL VARS BELOW THIS LINE
-        APP_NAME = "self-assessment-api"
+        APP_NAME = "movies"
     }
 
 
