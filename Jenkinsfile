@@ -13,7 +13,7 @@ pipeline {
 		DEV_PROJECT = "project-dev"
         STAGE_PROJECT = "project-nonprod"
         APP_GIT_URL = "https://github.com/my-dha-covid19/self-assessment-api.git"
-        NEXUS_SERVER = "https://nexus-project-devops.dte-ocp46-fh6888-915b3b336cabec458a7c7ec2aa7c625f-0000.us-east.containers.appdomain.cloud/repository/maven-public"
+        NEXUS_SERVER = "https://nexus-project-devops.dte-ocp46-n1nxhz-915b3b336cabec458a7c7ec2aa7c625f-0000.us-east.containers.appdomain.cloud/repository/maven-public"
 
         // DO NOT CHANGE THE GLOBAL VARS BELOW THIS LINE
         APP_NAME = "movies"
