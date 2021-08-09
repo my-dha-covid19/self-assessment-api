@@ -3,11 +3,13 @@ pipeline {
         // set a timeout of 60 minutes for this pipeline
         timeout(time: 60, unit: 'MINUTES')
     }
-    agent {
+    /*agent {
       node {
         label 'maven'
       }
-    }
+    }*/
+	agent any
+	  tools {Pipeline Maven Integration "maven"}
 
     environment {
 		DEV_PROJECT = "project-dev"
