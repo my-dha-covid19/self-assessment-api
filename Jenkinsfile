@@ -9,7 +9,7 @@ pipeline {
       }
     }*/
 	agent any
-	  tools {Pipeline Maven Integration "maven"}
+	  tools {maven "maven"}
 
     environment {
 		DEV_PROJECT = "project-dev"
