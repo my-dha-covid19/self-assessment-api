@@ -106,7 +106,7 @@ pipeline {
                 }
             }
         }
-
+/*
         stage('Promote to Staging Env') {
             steps {
                 timeout(time: 60, unit: 'MINUTES') {
@@ -159,6 +159,6 @@ pipeline {
                     }
                 }
             }
-        }
+        }*/
     }
 }
